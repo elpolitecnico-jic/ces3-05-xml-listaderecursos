@@ -1,4 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listadecursos SYSTEM "listadecursos.dtd">
 <listadecursos>
+
+    <curso>
+
+        <nombre>Curso en sistemas</nombre>
+
+        <alumno>
+            <dni>1017</dni>
+            <nombre>Esneider</nombre>
+            <apellido>Serna</apellido>
+            <segundoapellido>Marulanda</segundoapellido>
+
+            <asignaturas>
+
+                <asignatura codigo="001">
+                    <nombre>CES3</nombre>
+                    <profesor>
+                        <nrp>NRP01</nrp>
+                        <nombre>Oscrar</nombre>
+                        <apellido>Mesa</apellido>
+                    </profesor>
+                </asignatura>
+
+                <asignatura codigo="002">
+                    <nombre>Bases de Datos 3</nombre>
+                    <profesor>
+                        <nrp>NRP01</nrp>
+                        <nombre>Pedro</nombre>
+                        <apellido>Padilla</apellido>
+                        <segundoapellido>Puerta</segundoapellido>
+                    </profesor>
+                </asignatura>
+
+                <asignatura codigo="003">
+                    <nombre>Diseno de Sistemas</nombre>
+                    <profesor>
+                        <nrp>NRP03</nrp>
+                        <nombre>Carlos</nombre>
+                        <apellido>Builes</apellido>
+                    </profesor>
+                </asignatura>
+
+            </asignaturas>
+
+        </alumno>
+
+        <alumno>
+            <dni>1020</dni>
+            <nombre>Astrid</nombre>
+            <apellido>Naranjo</apellido>
+
+            <asignaturas>
+
+                <asignatura codigo="003">
+                    <nombre>Diseno de Sistemas</nombre>
+                    <profesor>
+                        <nrp>NRP03</nrp>
+                        <nombre>Carlos</nombre>
+                        <apellido>Builes</apellido>
+                    </profesor>
+                </asignatura>
+
+            </asignaturas>
+
+        </alumno>
+
+    </curso>
+
+    <curso>
+
+        <nombre>Azure</nombre>
+
+        <alumno>
+            <dni>10137</dni>
+            <nombre>Eduar</nombre>
+            <apellido>Londono</apellido>
+
+            <asignaturas>
+
+                <asignatura codigo="AZ01">
+                    <nombre>Apservices</nombre>
+                    <profesor>
+                        <nrp>NRPAZ01</nrp>
+                        <nombre>Juan</nombre>
+                        <apellido>Aristizabal</apellido>
+                    </profesor>
+                </asignatura>
+
+            </asignaturas>
+
+        </alumno>
+
+
+    </curso>
     
 </listadecursos>
